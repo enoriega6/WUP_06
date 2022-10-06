@@ -51,6 +51,13 @@ Both variables are categorical, we have to use categorical method.
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 
+```{r}
+barchartGC(~cappun + race,data=mydata)
+barchartGC(~race+ cappun,data=mydata, type="percent")
+
+```
+Among who favor capitol punishment (cappun), 80% of white race are in favor, which shows that more whites are in favor of it. Those who oppose cappun, blacks are at a higher percentage, at about 55%, compared to whites, and other races.
+
 
 ## Now with The Most data (fewer variables gives more data points)
 
