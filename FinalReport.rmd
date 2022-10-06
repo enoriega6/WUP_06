@@ -68,7 +68,13 @@ Among who favor capitol punishment (cappun), 80% of white race are in favor, whi
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+To further confirm, this table shows that those who favor cappun the most are white, 65.10% and whites who oppose it are 34.9%. 
 
 ## Now with More data
 
