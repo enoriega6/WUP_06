@@ -90,7 +90,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-Based off the fisher test p-value= 0.0000000000000022
+
 
 ```{r}
 fisherXY = function(x, y, confL = 0, printAll=FALSE){
@@ -161,15 +161,18 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```{r}
 fisherXY(mydata$race,mydata$cappun)
 ```
-Fisher xy test gives us a p-value= 0.001564
 
+Fisher xy test gives us a p-value= 0.00001741
+There is significant difference in attitude towards cappun based on race,between whites and blacks only. Hence it's less than 0.05.
 
 ## More data version
 
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->   
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->    
+
+The null hypothesis will be rejected due p-value being less than 0.05, which is 0.001564, based on the fisher xy test. What this means there is a difference is based on race whether or not they are in favor of cappun.
 With the smaller data, we don't seem to have enough evidence of statistical difference in attitude toward cappun based on race.  
 
 
