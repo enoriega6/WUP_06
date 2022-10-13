@@ -154,3 +154,5 @@ With the smaller data, we don't seem to have enough evidence of statistical diff
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In the small data there is a difference in attitude towards cappun.The difference is only shown between blacks and whites in the tables shown above.
