@@ -149,7 +149,7 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```{r}
 fisherXY(mydata$race,mydata$cappun)
 ```
-With the smaller data our, we don't seem to have enough evidence of statistical difference in attitude toward cappun based on race.
+With the smaller data, we don't seem to have enough evidence of statistical difference in attitude toward cappun based on race.
 
 # Discussion and Conclusion
 
