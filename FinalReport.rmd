@@ -90,7 +90,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-p-value= 0.0000000000000022
+Based off the fisher test p-value= 0.0000000000000022
 
 ```{r}
 fisherXY = function(x, y, confL = 0, printAll=FALSE){
@@ -169,5 +169,8 @@ Fisher xy test gives us a p-value= 0.001564
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->  
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->   
+With the smaller data, we don't seem to have enough evidence of statistical difference in attitude toward cappun based on race.  
+
+
 
